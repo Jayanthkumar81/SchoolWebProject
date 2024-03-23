@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+
+<style type="text/css">
+*{
+padding: 0;
+margin: 0;
+}
+body{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: lightblue; 
+}
+#main{
+height: 400px;
+width: 300px;
+background:silver;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5%;
+}
+.box{
+height: 30px;
+width: 250px;
+text-align: center;
+}
+.head{
+text-align: center;
+font-family:fantasy;
+font-size:150%;
+
+}
+.btn:hover{
+color: white;	
+background-color: windowtext;
+
+}
+.btn{
+font-family:fantasy;
+}
+</style>
+
+</head>
+<body>
+
+<div id="main">
+    <form action="Registration">
+       <table cellspacing="10px" >
+           <h2 class="head">Registration :</h2>
+           <tr >
+                <td><input placeholder="Name " name="name" class="box a" type="text"></input></td>
+           </tr>
+           <tr>
+                <td><input placeholder="Email Id" name="email" class="box b" type="email"></input></td>
+           </tr>
+           <tr>
+                <td><input placeholder="Mobile Number " name="number" class="box c" type="number"></input></td>
+           </tr>
+           <tr >
+                <td><input placeholder="Password " name="password" class="box d" type="password"></input></td>
+           </tr>
+          <tr>
+              <td >Gender :<input type="radio" name="gender" value="male">Male
+                           <input type="radio" name="gender" value="Female">Female
+              </td>
+          </tr>
+          <tr>
+              <td>
+                   Select Class :<select name="class" >
+                                      <option>Select Class</option>
+                                      <option value="I">I</option>
+                                      <option value="II">II</option>
+                                      <option value="III">III</option>
+                                      <option value="IV">IV</option>
+                                      <option value="V">V</option>
+                                      <option value="VI">VI</option>
+                                      <option value="VII">VII</option>
+                                      <option value="VIII">VIII</option>
+                                      <option value="IX">IX</option>
+                                      <option value="X">X</option>
+                                   </select>
+              </td>
+          </tr>
+          <tr>
+                <td><input  type="submit" class="box btn"></input></td>
+          </tr>
+       </table>
+    </form>
+</div>
+
+</body>
+</html>

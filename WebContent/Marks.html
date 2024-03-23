@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Marks</title>
+<style type="text/css">
+*{
+margin: 0;
+padding: 0;
+}
+h1{
+font-family: fantasy;
+}
+body{
+height: 100vh;
+background-color: lightblue;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+input {
+	height: 25px;
+	width: 200px;
+	text-align: center;
+}
+.box{
+background-color: silver;
+height: 350px;
+width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5%;
+}
+.btn{
+height: 25px;
+position: relative;
+left: 99px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<form action="Marks">
+<table>
+<tr >
+ <td colspan="2"><h1>Enter Student Marks :</h1></td>
+</tr>
+<tr>
+ <td><label>Student Id: </label></td>
+ <td><input placeholder="Rool Number" name="id"></td>
+</tr>
+<tr>
+ <td><label>Student Name: </label></td>
+ <td><input placeholder="Enter name" name="name"></td>
+</tr>
+<tr>
+ <td><label>Telugu: </label></td>
+ <td><input placeholder="Enter marks" name="telugu"></td>
+</tr>
+<tr>
+ <td><label>English: </label></td>
+ <td><input placeholder="Enter marks" name="english"></td>
+</tr>
+<tr>
+ <td><label>Hindi:</label></td>
+ <td><input placeholder="Enter marks" name="hindi"></td>
+</tr>
+<tr>
+ <td><label>Maths: </label></td>
+ <td><input placeholder="Enter marks" name="maths"></td>
+</tr>
+<tr>
+ <td><label>Science:</label></td>
+ <td><input placeholder="Enter marks" name="science"></td>
+</tr>
+<tr>
+ <td><label>Social:</label></td>
+ <td><input placeholder="Enter marks" name="social"></td>
+</tr>
+<tr>
+ <td colspan="2" ><input type="submit" class="btn"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
